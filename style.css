@@ -5,6 +5,32 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
 
 .header-container {
     display: flex;
@@ -19,7 +45,7 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-    color: #fff;
+    color: #fff !important;
     font-size: 60px !important;
     font-family: 'Fraunces', serif;
     font-weight: bold;
@@ -93,7 +119,7 @@ h1 {
 .btn-maisinformacoes {
     color: #fff;
     font-size: 100px;
-    margin: -140px 0px 0px 30px; 
+    margin: -140px 0px 0px 30px;
 }
 
 .mais-informacoes {
@@ -104,7 +130,46 @@ h1 {
     text-align: center;
     font-family: "Poppins", Sans-serif;
     font-size: 22px;
-    height: 300px;
+    height: 100vh;
     padding-top: 50px;
     font-weight: bold;
+}
+
+.accordion.accordion-3 {
+    border-radius: 3px;
+}
+
+.accordion.accordion-3 p {
+    font-size: 1rem;
+}
+
+.accordion.accordion-3 .fa.fa-angle-down {
+    margin-top: -10px;
+}
+
+.accordion .animated-icon1 span {
+    background: #F44336;
+}
+
+.content {
+    text-align: center !important;
+    background-color: #304f61;
+    color: #fff;
+}
+
+.maisinfos {
+    text-align: center;
+}
+
+.maisinfos button {
+    background-color: #253d4a;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.maisinfos button:hover{
+    background-color: #3a5f74;
+    color: #fff;
 }
