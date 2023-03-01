@@ -110,18 +110,6 @@ h1 {
     display: flex;
 }
 
-.btn-maisinformacoes {
-    color: #fff;
-    font-size: 100px;
-    margin: -140px 0px 0px 30px;
-}
-
-.btn-maisinformacoes {
-    color: #fff;
-    font-size: 100px;
-    margin: -140px 0px 0px 30px;
-}
-
 .mais-informacoes {
     margin: 0px;
     padding: 0px;
@@ -157,6 +145,10 @@ h1 {
     color: #fff;
 }
 
+.content p{
+    margin-top: 10px;
+}
+
 .maisinfos {
     text-align: center;
     height: 100vh;
@@ -168,10 +160,30 @@ h1 {
     font-size: 20px;
     color: #fff;
     text-align: center;
-
 }
 
 .maisinfos button:hover {
     background-color: #3a5f74;
     color: #fff;
+}
+
+.insta-icon {
+    max-width: 32px;
+    filter: invert(1);
+}
+
+.insta-icon:hover{
+    max-width: 32px;
+    filter: invert(0);
+}
+
+.maisinfos-collapsible {
+    padding-top: 100px;
+    min-height: 780px;
+}
+
+h3 {
+    font-size: 36px !important;
+    color: #fff !important;
+    padding-top: 50px;
 }
